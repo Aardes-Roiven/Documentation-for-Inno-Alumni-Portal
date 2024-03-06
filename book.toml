@@ -1,0 +1,6 @@
+[book]
+authors = ["Ilya Ribaev"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Inno Alumni Portal"

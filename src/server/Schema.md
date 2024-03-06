@@ -1,0 +1,31 @@
+# Schema
+
+- InternalUser: Represents a user in the system with additional fields such as role, contact information, and other details.
+- LogInUser: Represents a user trying to log in with their email and password.
+- UserWithPassword: Represents a user with their email, password, and unique identifier.
+- CreateAdminUser: Represents the details required to create an admin user, including name, email, and password.
+- SignUpUser: Represents the details required for a user to sign up, including name, email, password, and confirmation password.
+- UpdateUser: Represents the fields that can be updated for a user, such as name, contact information, company, position, etc.
+- UserOutput: Represents the output of a user, including their name, email, contact information, company, position, etc.
+- ConfirmationCode: Represents a confirmation code used for verifying user accounts or actions.
+- UpdateUserPassword: Represents the details required to update a user's password, including the current password and new password.
+
+- OrderPassRequest: Represents a pass request made by a user, including the requested date, guests, and description.
+- PassRequestOutput: Represents the output of a pass request, including its ID, guest information, description, feedback, type, requested date, status, user ID, user details, and creation timestamp.
+- ElectiveCourse: Represents an elective course, including its name, instructor name, description, and mode.
+- ElectiveCourseOutput: Represents the output of an elective course, including its ID, course name, instructor name, description, and mode.
+- UpdateRequest: Represents the details required to update a request, including feedback and status.
+- MakeDonation: Represents the details required to make a donation, including a message.
+- DonationOutput: Represents the output of a donation, including its ID, user details, message, and creation timestamp.
+- ShowUser: Represents a user with their full name and email.
+- User: Represents a user with their email and password.
+- UserForgotPassword: Represents the details required for a user to reset their password, including their email.
+- UserVerifyAccount: Represents the details required to verify a user's account, including their email.
+- UserUpdatePassword: Represents the details required to update a user's password, including their email and new password.
+- VerificationCode: Represents a verification code used for verifying user accounts or actions.
+- UserOut: Represents the output of a user, including their full name, email, phone number, address, avatar URL, birth date, and country.
+- UserEdit: Represents the fields that can be updated for a user, such as address and avatar URL.
+- SlotTypeEnum: Represents the different types of slots available (LAB, TUT, LEC).
+- Slot: Represents a time slot for a course, including the instructor name, room number, start time, end time, course name, type, course ID, and group ID.
+- SlotUpdate: Represents the details required to update a time slot, including the instructor name, room number, start time, end time, course name, type, course ID, and group ID.
+- SlotRange: Represents a range of dates for a time slot, including the start date and end date.
